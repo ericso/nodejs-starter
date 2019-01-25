@@ -1,11 +1,11 @@
 {
-  "name": "nodejs-starter",
+  "name": "haus-backend",
   "version": "1.0.0",
-  "description": "A starter application for NodeJS with Typescript",
+  "description": "Backend for Haus homework assignment",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/ericso/nodejs-starter",
+  "repository": "https://github.com/ericso/haus-backend",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -52,7 +52,10 @@
     "node": "10.15.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
     "winston": "^3.1.0"
   },
   "devDependencies": {

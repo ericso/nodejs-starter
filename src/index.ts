@@ -1,17 +1,10 @@
-import express from 'express';
-
 import config from './config';
 import logger from './logger';
 
+import app from './app';
+
 // exports for the library
 export * from './lib';
-
-
-const app = express();
-
-// health check api for liveness probe
-app.get('/health', (_, res) => res.send('Still alive.'));
-
 
 let port;
 process.argv.forEach((value, _) => {

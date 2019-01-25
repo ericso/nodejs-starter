@@ -1,3 +1,3 @@
-# nodejs-starter
+# haus-backend
 
-A starter app for Nodejs with Typescript
+Backend for the Haus homework assignment
